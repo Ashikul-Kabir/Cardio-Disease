@@ -35,8 +35,8 @@ This project aims to improve heart disease prediction by harnessing advanced mac
 - XGBoost also displayed improvement after hyperparameter tuning but to a lesser extent compared to Random Forest.
 - LightGBM maintained consistent performance across all rounds, indicating its robustness to the dataset with slight improvement   in precision after hyperparameter tuning.
 - Logistic Regression displayed a significant increase in performance after feature engineering, with accuracy increasing from    baseline and remaining stable through to hyperparameter tuning.
-- considering the performance metrics across different rounds (Baseline, Post-Feature    
-  Engineering, and Post-Hyperparameter Tuning), LightGBM has been elected as the most suitable model having the following key features:
+
+Considering the performance metrics across different rounds (Baseline, Post-Feature Engineering, and Post-Hyperparameter Tuning), LightGBM has been elected as the most suitable model having the following key features:
 -   Consistently High Performance
 -   Slight Improvement with Complexity
 -   Efficiency and Scalability
