@@ -45,6 +45,6 @@ Considering the performance metrics across different rounds (Baseline, Post-Feat
 -   Balanced Precision and ROC-AUC
 
 # Recommendations
-- Choosing the Best Model: LightGBM appears to offer the best combination of accuracy and ROC-AUC post-tuning, making it a strong candidate for the final model.
-- Further Improvement: A granular hyperparameter tuning for LightGBM or XGBoost might be performed, as they showed the best performance. Advanced feature engineering techniques or ensemble methods may be explored to see if there's a significant performance boost.
-- Model Interpretability: The interpretability of the model is a crucial aspect in healthcare applications, Logistic Regression might still be considered due to the ease of understanding its decision process, despite it not having the absolute highest metrics.
+- **Choosing the Best Model:** LightGBM appears to offer the best combination of accuracy and ROC-AUC post-tuning, making it a strong candidate for the final model.
+- **Further Improvement:** A granular hyperparameter tuning for LightGBM or XGBoost might be performed, as they showed the best performance. Advanced feature engineering techniques or ensemble methods may be explored to see if there's a significant performance boost.
+- **Model Interpretability:** The interpretability of the model is a crucial aspect in healthcare applications, Logistic Regression might still be considered due to the ease of understanding its decision process, despite it not having the absolute highest metrics.
